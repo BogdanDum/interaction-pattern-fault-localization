@@ -1,0 +1,21 @@
+{
+  "mad_path": "full_set/AG2/GPT-4o/MMLU/Pass/No_MAST_failure/AG2_MMLU_GPT4o_Mini__idx2__tid2.json",
+  "granularity": "vocab",
+  "n": 3,
+  "mas_name": "AG2",
+  "benchmark_name": "MMLU",
+  "llm_name": "GPT-4o",
+  "trace_id": 2,
+  "tokens": [
+    "INFORM",
+    "PLAN",
+    "ACT",
+    "PLAN",
+    "TERMINATE"
+  ],
+  "ngram_presence": [
+    "ACT :: PLAN :: TERMINATE",
+    "INFORM :: PLAN :: ACT",
+    "PLAN :: ACT :: PLAN"
+  ]
+}

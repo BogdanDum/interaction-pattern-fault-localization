@@ -1,0 +1,39 @@
+{
+  "mad_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_136.json",
+  "granularity": "vocab",
+  "n": 3,
+  "mas_name": "HyperAgent",
+  "benchmark_name": "SWE-Bench-Verified",
+  "llm_name": "deepseek-chat",
+  "trace_id": 136,
+  "tokens": [
+    "REQUEST",
+    "PLAN",
+    "ERROR",
+    "PLAN",
+    "ACT",
+    "VERIFY_FAIL",
+    "ACT",
+    "VERIFY_FAIL",
+    "ACT",
+    "VERIFY_FAIL",
+    "ERROR",
+    "INFORM",
+    "PLAN",
+    "INFORM",
+    "VERIFY_FAIL"
+  ],
+  "ngram_presence": [
+    "ACT :: VERIFY_FAIL :: ACT",
+    "ACT :: VERIFY_FAIL :: ERROR",
+    "ERROR :: INFORM :: PLAN",
+    "ERROR :: PLAN :: ACT",
+    "INFORM :: PLAN :: INFORM",
+    "PLAN :: ACT :: VERIFY_FAIL",
+    "PLAN :: ERROR :: PLAN",
+    "PLAN :: INFORM :: VERIFY_FAIL",
+    "REQUEST :: PLAN :: ERROR",
+    "VERIFY_FAIL :: ACT :: VERIFY_FAIL",
+    "VERIFY_FAIL :: ERROR :: INFORM"
+  ]
+}

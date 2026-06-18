@@ -1,0 +1,8 @@
+{
+  "config": "/Users/bogdanduminica/Desktop/RP_Code_Final/experiments/rq3/configs/n4/config.json",
+  "B": 10,
+  "seed": 42,
+  "top_k": 10,
+  "reference_rank1_pattern": "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+  "n_traces": 186
+}

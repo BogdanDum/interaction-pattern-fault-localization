@@ -1,0 +1,28 @@
+{
+  "mad_path": "full_set/AG2/GPT-4o/GSM/Fail/1.1/AG2_GSM_Plus_GPT4o__idx27__tid27.json",
+  "granularity": "vocab",
+  "n": 4,
+  "mas_name": "AG2",
+  "benchmark_name": "GSM",
+  "llm_name": "GPT-4o",
+  "trace_id": 27,
+  "tokens": [
+    "REQUEST",
+    "PLAN",
+    "TERMINATE",
+    "PLAN",
+    "VERIFY_FAIL",
+    "TERMINATE",
+    "ACT",
+    "INFORM",
+    "TERMINATE"
+  ],
+  "ngram_presence": [
+    "PLAN :: TERMINATE :: PLAN :: VERIFY_FAIL",
+    "PLAN :: VERIFY_FAIL :: TERMINATE :: ACT",
+    "REQUEST :: PLAN :: TERMINATE :: PLAN",
+    "TERMINATE :: ACT :: INFORM :: TERMINATE",
+    "TERMINATE :: PLAN :: VERIFY_FAIL :: TERMINATE",
+    "VERIFY_FAIL :: TERMINATE :: ACT :: INFORM"
+  ]
+}

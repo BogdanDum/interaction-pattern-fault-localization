@@ -1,0 +1,34 @@
+{
+  "n_traces": 597,
+  "n_patterns": 38,
+  "matrix_shape": [
+    597,
+    38
+  ],
+  "export_root": "data/mast/tokenized",
+  "mad_root": "data/mast",
+  "n": 2,
+  "n_export_files": 597,
+  "n_traces_after_path_filter": 597,
+  "n_traces_final": 597,
+  "filters": {
+    "include_set": "full_set",
+    "mas_names": [
+      "AG2"
+    ],
+    "benchmark_names": [],
+    "llm_names": [],
+    "min_event_count": 0,
+    "max_traces": null,
+    "sample_seed": 42,
+    "analysis": {
+      "mode": "all"
+    }
+  },
+  "population_analysis": {
+    "population_mode": "all",
+    "n_input": 597,
+    "n_kept": 597,
+    "n_excluded": 0
+  }
+}

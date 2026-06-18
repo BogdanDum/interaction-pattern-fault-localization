@@ -1,0 +1,2 @@
+pattern,bootstrap,in_top_k_freq_ochiai,freq_ochiai,in_top_k_freq_rrf,freq_rrf,in_top_k_freq,freq
+VERIFY_FAIL :: ACT :: VERIFY_FAIL,100,54,0.54,50,0.5,54,0.54

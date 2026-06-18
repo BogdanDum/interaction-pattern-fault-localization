@@ -1,0 +1,22 @@
+{
+  "experiment": {
+    "name": "same_task__psf_requests_1142__n4",
+    "out_dir": "experiments/rq3/runs/n4"
+  },
+  "tokenization": {
+    "export_root": "data/rq3_hyperagent/tokenized",
+    "mad_root": "data/rq3_hyperagent",
+    "n": 4
+  },
+  "population": {
+    "include_set": "same_task",
+    "mas_names": [
+      "HyperAgent"
+    ]
+  },
+  "labels": [
+    {
+      "mode": "global"
+    }
+  ]
+}

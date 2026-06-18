@@ -1,0 +1,20 @@
+[
+  "ACT :: ERROR",
+  "ACT :: INFORM",
+  "ACT :: PLAN",
+  "ACT :: VERIFY_FAIL",
+  "ERROR :: ACT",
+  "ERROR :: INFORM",
+  "ERROR :: VERIFY_FAIL",
+  "INFORM :: ACT",
+  "INFORM :: ERROR",
+  "INFORM :: PLAN",
+  "INFORM :: TERMINATE",
+  "INFORM :: VERIFY_FAIL",
+  "PLAN :: ACT",
+  "PLAN :: ERROR",
+  "PLAN :: INFORM",
+  "REQUEST :: PLAN",
+  "VERIFY_FAIL :: ACT",
+  "VERIFY_FAIL :: INFORM"
+]

@@ -1,0 +1,26 @@
+{
+  "spec": {
+    "study_id": "same_task",
+    "framework": "HyperAgent",
+    "n": 4,
+    "condition": "sbfl",
+    "pattern_mode": "fixed_ranks",
+    "pattern_ranks": [
+      1
+    ],
+    "top_k": 1,
+    "seed": 42,
+    "failing_only": true,
+    "judge_window_n": 4,
+    "ranking_method": "sbfl"
+  },
+  "rankings_path": "experiments/rq3/runs/n4/runs/rankings__global.csv",
+  "model": "deepseek-v4-pro",
+  "temperature": 0.0,
+  "judge_study_dir": "rq4",
+  "pilot": false,
+  "pilot_n": null,
+  "aggregation": "rank1_first_occurrence_single_phase_judge_w4",
+  "created_at": "2026-06-10T15:56:23.301983+00:00",
+  "artifacts_manifest_path": "experiments/rq3/runs/n4/artifacts/manifest.json"
+}

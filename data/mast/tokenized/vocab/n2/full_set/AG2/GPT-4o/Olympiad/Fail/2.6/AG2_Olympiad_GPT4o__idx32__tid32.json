@@ -1,0 +1,18 @@
+{
+  "mad_path": "full_set/AG2/GPT-4o/Olympiad/Fail/2.6/AG2_Olympiad_GPT4o__idx32__tid32.json",
+  "granularity": "vocab",
+  "n": 2,
+  "mas_name": "AG2",
+  "benchmark_name": "Olympiad",
+  "llm_name": "GPT-4o",
+  "trace_id": 32,
+  "tokens": [
+    "REQUEST",
+    "PLAN",
+    "TERMINATE"
+  ],
+  "ngram_presence": [
+    "PLAN :: TERMINATE",
+    "REQUEST :: PLAN"
+  ]
+}

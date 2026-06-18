@@ -1,0 +1,6 @@
+SBFL #,Pattern (SBFL),Ochiai,Mk#,,Mk #,Pattern (Markov),Δ surprise,SBFL#,pattern match,Shared families
+1,ACT → INFORM → ACT → TERMINATE,0.703,1,│,1,ACT → INFORM → ACT → TERMINATE,0.100,1,yes,"act, inform, terminate"
+2,ACT → VERIFY_PASS → PLAN → ACT,0.641,2,│,2,ACT → VERIFY_PASS → PLAN → ACT,0.046,2,yes,"act, plan, verify_pass"
+3,VERIFY_PASS → PLAN → ACT → INFORM,0.618,3,│,3,VERIFY_PASS → PLAN → ACT → INFORM,0.043,3,yes,"act, inform, plan, verify_pass"
+4,INFORM → ACT → PLAN → INFORM,0.511,4,│,4,INFORM → ACT → PLAN → INFORM,0.058,4,yes,"act, inform, plan"
+5,ACT → PLAN → INFORM → ACT,0.501,8,│,5,ACT → VERIFY_PASS → PLAN → INFORM,0.020,—,yes,"act, inform, plan"

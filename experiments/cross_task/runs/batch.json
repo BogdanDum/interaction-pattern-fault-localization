@@ -1,0 +1,8 @@
+{
+  "batch_id": "experiments/cross_task/runs",
+  "created_utc": "2026-05-27T13:47:31Z",
+  "targets": [
+    "experiments/cross_task/configs"
+  ],
+  "study": "vocab_study"
+}

@@ -1,0 +1,6 @@
+Rank,Pattern,e_f,e_p,Ochiai,p,Evidence
+1,REQUEST → PLAN → ACT → INFORM,245,44,0.646,—,untested
+2,PLAN → ACT → INFORM → TERMINATE,183,30,0.562,—,untested
+3,ACT → INFORM → TERMINATE → INFORM,144,23,0.500,—,untested
+4,INFORM → TERMINATE → INFORM → PLAN,143,23,0.498,—,untested
+5,TERMINATE → INFORM → PLAN → TERMINATE,143,28,0.491,—,untested

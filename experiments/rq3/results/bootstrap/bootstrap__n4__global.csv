@@ -1,0 +1,2 @@
+pattern,bootstrap,in_top_k_freq_ochiai,freq_ochiai,in_top_k_freq_rrf,freq_rrf,in_top_k_freq,freq,rank1_freq_ochiai,rank1_freq_rrf,top_k,seed
+REQUEST :: PLAN :: ACT :: VERIFY_FAIL,10,10,1.0,10,1.0,10,0.8,0.8,0.8,10,42

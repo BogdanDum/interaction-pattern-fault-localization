@@ -1,0 +1,26 @@
+{
+  "mad_path": "full_set/MetaGPT/GPT-4o/ProgramDev/Fail/1.1/MetaGPT_ProgramDev2_GPT4o__idx68__tid68.json",
+  "granularity": "vocab",
+  "n": 4,
+  "mas_name": "MetaGPT",
+  "benchmark_name": "ProgramDev",
+  "llm_name": "GPT-4o",
+  "trace_id": 68,
+  "tokens": [
+    "PLAN",
+    "REQUEST",
+    "PLAN",
+    "ERROR",
+    "ACT",
+    "INFORM",
+    "ACT",
+    "VERIFY_FAIL"
+  ],
+  "ngram_presence": [
+    "ERROR :: ACT :: INFORM :: ACT",
+    "PLAN :: ERROR :: ACT :: INFORM",
+    "PLAN :: REQUEST :: PLAN :: ERROR",
+    "REQUEST :: PLAN :: ACT :: ERROR",
+    "VERIFY_FAIL :: INFORM :: VERIFY_FAIL :: INFORM"
+  ]
+}

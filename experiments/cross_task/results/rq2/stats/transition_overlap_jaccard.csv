@@ -1,0 +1,13 @@
+batch,framework,label,top_k,jaccard_n3_n4
+runs,MetaGPT,global,5,0.5
+runs,MetaGPT,global,10,0.7777777777777778
+runs,MetaGPT,global,20,0.8888888888888888
+runs,ChatDev,global,5,0.6666666666666666
+runs,ChatDev,global,10,0.6428571428571429
+runs,ChatDev,global,20,0.6666666666666666
+runs,HyperAgent,global,5,0.75
+runs,HyperAgent,global,10,0.9166666666666666
+runs,HyperAgent,global,20,0.8571428571428571
+runs,AG2,global,5,1.0
+runs,AG2,global,10,0.7692307692307693
+runs,AG2,global,20,1.0

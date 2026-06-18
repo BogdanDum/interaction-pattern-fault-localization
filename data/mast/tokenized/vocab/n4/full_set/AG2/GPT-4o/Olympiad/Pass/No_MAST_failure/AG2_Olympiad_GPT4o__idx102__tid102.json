@@ -1,0 +1,24 @@
+{
+  "mad_path": "full_set/AG2/GPT-4o/Olympiad/Pass/No_MAST_failure/AG2_Olympiad_GPT4o__idx102__tid102.json",
+  "granularity": "vocab",
+  "n": 4,
+  "mas_name": "AG2",
+  "benchmark_name": "Olympiad",
+  "llm_name": "GPT-4o",
+  "trace_id": 102,
+  "tokens": [
+    "REQUEST",
+    "PLAN",
+    "ACT",
+    "INFORM",
+    "VERIFY_PASS",
+    "PLAN",
+    "TERMINATE"
+  ],
+  "ngram_presence": [
+    "ACT :: INFORM :: VERIFY_PASS :: PLAN",
+    "INFORM :: VERIFY_PASS :: PLAN :: TERMINATE",
+    "PLAN :: ACT :: INFORM :: VERIFY_PASS",
+    "REQUEST :: PLAN :: ACT :: INFORM"
+  ]
+}

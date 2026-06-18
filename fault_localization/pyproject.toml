@@ -1,0 +1,30 @@
+[project]
+name = "rp-analysis"
+version = "0.1.0"
+description = "Interaction pattern-based fault localization (SBFL, Markov) for MAST traces; RQ4 trace judge"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.11",
+    "pandas>=2.0",
+    "openai>=1.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+rp-analysis = "rp_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["rp_analysis*"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

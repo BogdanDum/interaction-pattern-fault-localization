@@ -1,0 +1,35 @@
+{
+  "weight_col": "ochiai",
+  "n_traces": 186,
+  "n_positive": 71,
+  "n_negative": 115,
+  "top_k": {
+    "5": {
+      "patterns_used": 5,
+      "roc_auc": 0.8222902633190448,
+      "mann_whitney_u_p_greater": 6.393471888775366e-17,
+      "positive_mean": 2.1427256470363703,
+      "negative_mean": 0.20390387371771684,
+      "positive_median": 2.919252502337539,
+      "negative_median": 0.0
+    },
+    "10": {
+      "patterns_used": 10,
+      "roc_auc": 0.8175137783221066,
+      "mann_whitney_u_p_greater": 3.9839786005606214e-16,
+      "positive_mean": 3.169075554264522,
+      "negative_mean": 0.23923335898732764,
+      "positive_median": 3.5153548096178424,
+      "negative_median": 0.0
+    },
+    "20": {
+      "patterns_used": 20,
+      "roc_auc": 0.9154929577464789,
+      "mann_whitney_u_p_greater": 2.3807769309170455e-22,
+      "positive_mean": 4.052186694948149,
+      "negative_mean": 0.4555717281650234,
+      "positive_median": 4.5310954871443645,
+      "negative_median": 0.3566520772760929
+    }
+  }
+}

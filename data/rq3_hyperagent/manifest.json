@@ -1,0 +1,1504 @@
+{
+  "instance_id": "psf__requests-1142",
+  "mas_name": "HyperAgent",
+  "llm_name": "deepseek-chat",
+  "benchmark_name": "SWE-Bench-Verified",
+  "counts": {
+    "pass": 115,
+    "fail": 71,
+    "total_traced": 186
+  },
+  "excluded": {
+    "llm_empty_patch": "no execution traces in repo copy"
+  },
+  "runs": [
+    {
+      "run_id": "05",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_05.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "06",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_06.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "07",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_07.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "08",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_08.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "09",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_09.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "100",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_100.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "101",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_101.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "103",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_103.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "104",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_104.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "108",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_108.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "11",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_11.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "114",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_114.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "115",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_115.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "117",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_117.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "118",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_118.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "12",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_12.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "129",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_129.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "13",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_13.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "130",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_130.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "132",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_132.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "14",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_14.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "146",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_146.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "15",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_15.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "151",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_151.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "154",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_154.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "155",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_155.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "156",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_156.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "16",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_16.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "164",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_164.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "170",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_170.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "171",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_171.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "173",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_173.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "174",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_174.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "178",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_178.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "18",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_18.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "181",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_181.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "185",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_185.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "186",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_186.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "187",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_187.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "19",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_19.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "190",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_190.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "192",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_192.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "194",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_194.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "195",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_195.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "196",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_196.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "197",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_197.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "199",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_199.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "20",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_20.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "200",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_200.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "201",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_201.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "206",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_206.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "207",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_207.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "208",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_208.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "21",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_21.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "212",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_212.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "215",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_215.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "216",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_216.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "217",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_217.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "219",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_219.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "22",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_22.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "220",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_220.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "222",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_222.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "223",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_223.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "226",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_226.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "228",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_228.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "229",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_229.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "231",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_231.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "234",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_234.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "24",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_24.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "241",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_241.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "242",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_242.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "243",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_243.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "245",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_245.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "246",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_246.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "247",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_247.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "251",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_251.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "26",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_26.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "27",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_27.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "29",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_29.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "34",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_34.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "36",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_36.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "37",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_37.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "38",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_38.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "39",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_39.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "40",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_40.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "41",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_41.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "42",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_42.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "43",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_43.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "45",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_45.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "46",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_46.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "47",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_47.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "48",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_48.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "49",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_49.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "50",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_50.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "53",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_53.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "55",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_55.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "57",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_57.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "59",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_59.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "60",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_60.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "63",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_63.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "66",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_66.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "67",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_67.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "68",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_68.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "70",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_70.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "71",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_71.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "73",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_73.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "74",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_74.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "77",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_77.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "78",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_78.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "81",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_81.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "82",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_82.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "83",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_83.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "84",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_84.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "87",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_87.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "99",
+      "outcome": "pass",
+      "outcome_label": "Pass",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_99.json",
+      "failure_class": "resolved",
+      "resolved": true
+    },
+    {
+      "run_id": "01",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_01.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "10",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_10.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "103",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_103.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "104",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_104.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "105",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_105.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "107",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_107.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "115",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_115.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "120",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_120.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "121",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_121.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "122",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_122.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "123",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_123.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "124",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_124.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "127",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_127.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "128",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_128.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "136",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_136.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "137",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_137.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "148",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_148.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "152",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_152.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "156",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_156.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "166",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_166.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "167",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_167.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "170",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_170.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "171",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_171.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "172",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_172.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "173",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_173.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "175",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_175.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "177",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_177.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "179",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_179.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "180",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_180.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "181",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_181.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "183",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_183.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "184",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_184.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "188",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_188.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "191",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_191.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "193",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_193.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "194",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_194.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "196",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_196.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "202",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_202.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "206",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_206.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "207",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_207.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "210",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_210.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "211",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_211.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "212",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_212.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "216",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_216.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "221",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_221.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "222",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_222.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "224",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_224.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "227",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_227.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "229",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_229.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "235",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_235.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "237",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_237.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "238",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_238.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "240",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_240.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "241",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_241.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "248",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_248.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "25",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_25.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "252",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_252.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "254",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_254.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "28",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_28.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "33",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_33.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "52",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_52.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "54",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_54.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "56",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_56.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "58",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_58.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "62",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_62.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "65",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_65.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "69",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_69.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "75",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_75.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "79",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_79.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "80",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_80.json",
+      "failure_class": "Fail",
+      "resolved": false
+    },
+    {
+      "run_id": "85",
+      "outcome": "fail",
+      "outcome_label": "Fail",
+      "mad_relative_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Fail/run_85.json",
+      "failure_class": "Fail",
+      "resolved": false
+    }
+  ]
+}

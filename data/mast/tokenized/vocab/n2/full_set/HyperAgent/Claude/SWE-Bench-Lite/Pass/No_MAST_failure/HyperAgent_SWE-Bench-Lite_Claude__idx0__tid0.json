@@ -1,0 +1,43 @@
+{
+  "mad_path": "full_set/HyperAgent/Claude/SWE-Bench-Lite/Pass/No_MAST_failure/HyperAgent_SWE-Bench-Lite_Claude__idx0__tid0.json",
+  "granularity": "vocab",
+  "n": 2,
+  "mas_name": "HyperAgent",
+  "benchmark_name": "SWE-Bench-Lite",
+  "llm_name": "Claude",
+  "trace_id": 0,
+  "tokens": [
+    "REQUEST",
+    "INFORM",
+    "PLAN",
+    "ACT",
+    "VERIFY_PASS",
+    "ACT",
+    "TERMINATE",
+    "PLAN",
+    "ACT",
+    "TERMINATE",
+    "PLAN",
+    "ACT",
+    "TERMINATE",
+    "PLAN",
+    "ACT",
+    "PLAN",
+    "ACT",
+    "PLAN",
+    "ACT",
+    "PLAN",
+    "ACT",
+    "PLAN"
+  ],
+  "ngram_presence": [
+    "ACT :: PLAN",
+    "ACT :: TERMINATE",
+    "ACT :: VERIFY_PASS",
+    "INFORM :: PLAN",
+    "PLAN :: ACT",
+    "REQUEST :: INFORM",
+    "TERMINATE :: PLAN",
+    "VERIFY_PASS :: ACT"
+  ]
+}

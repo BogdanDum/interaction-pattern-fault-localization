@@ -1,0 +1,37 @@
+{
+  "mad_path": "full_set/AG2/GPT-4o/Olympiad/Fail/1.3/AG2_Olympiad_GPT4o__idx87__tid87.json",
+  "granularity": "vocab",
+  "n": 2,
+  "mas_name": "AG2",
+  "benchmark_name": "Olympiad",
+  "llm_name": "GPT-4o",
+  "trace_id": 87,
+  "tokens": [
+    "REQUEST",
+    "PLAN",
+    "ACT",
+    "INFORM",
+    "ERROR",
+    "VERIFY_FAIL",
+    "ACT",
+    "INFORM",
+    "PLAN",
+    "ACT",
+    "INFORM",
+    "PLAN",
+    "ACT",
+    "INFORM",
+    "PLAN",
+    "TERMINATE"
+  ],
+  "ngram_presence": [
+    "ACT :: INFORM",
+    "ERROR :: VERIFY_FAIL",
+    "INFORM :: ERROR",
+    "INFORM :: PLAN",
+    "PLAN :: ACT",
+    "PLAN :: TERMINATE",
+    "REQUEST :: PLAN",
+    "VERIFY_FAIL :: ACT"
+  ]
+}

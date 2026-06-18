@@ -1,0 +1,6 @@
+Rank,Pattern,e_f,e_p,Ochiai,p,Evidence
+1,REQUEST → PLAN → ACT → VERIFY_FAIL,98,3,0.744,0.0000,bh_significant
+2,VERIFY_FAIL → INFORM → VERIFY_FAIL → INFORM,94,3,0.728,0.0000,bh_significant
+3,PLAN → ACT → VERIFY_FAIL → ACT,86,3,0.695,0.0000,bh_significant
+4,ACT → VERIFY_FAIL → ACT → VERIFY_FAIL,69,1,0.629,0.0000,bh_significant
+5,REQUEST → PLAN → ACT → INFORM,68,53,0.471,—,untested

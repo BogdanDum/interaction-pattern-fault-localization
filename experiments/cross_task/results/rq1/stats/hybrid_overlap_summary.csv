@@ -1,0 +1,5 @@
+framework,exact_top3,pattern_top3,pattern_top3_bridge,meets_target_pattern,meets_target_pattern_bridge,meets_target_loop_anchor
+AG2,3,3,3,True,True,True
+MetaGPT,3,3,3,True,True,True
+ChatDev,3,3,3,True,True,True
+HyperAgent,3,3,3,True,True,True

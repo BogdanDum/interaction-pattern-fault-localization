@@ -1,0 +1,11 @@
+framework,n,rank1_pattern,common_rank1_pattern,common_rank1_count,matches_common_rank1,common_in_top2,common_in_top3
+AG2,3,TERMINATE :: PLAN :: ACT,TERMINATE :: PLAN :: ACT,1,True,True,True
+MetaGPT,3,PLAN :: VERIFY_FAIL :: PROVIDE,TERMINATE :: PLAN :: ACT,1,False,False,False
+ChatDev,3,ACT :: TERMINATE :: PROVIDE,TERMINATE :: PLAN :: ACT,1,False,False,False
+Magentic,3,REQUEST :: PLAN :: ACT,TERMINATE :: PLAN :: ACT,1,False,False,False
+HyperAgent,3,ACT :: TERMINATE :: ACT,TERMINATE :: PLAN :: ACT,1,False,False,False
+AG2,4,TERMINATE :: PLAN :: ACT :: PROVIDE,TERMINATE :: PLAN :: ACT :: PROVIDE,1,True,True,True
+MetaGPT,4,PLAN :: REQUEST :: PLAN :: VERIFY_FAIL,TERMINATE :: PLAN :: ACT :: PROVIDE,1,False,False,False
+ChatDev,4,PROVIDE :: ACT :: TERMINATE :: PROVIDE,TERMINATE :: PLAN :: ACT :: PROVIDE,1,False,False,False
+Magentic,4,REQUEST :: PLAN :: ACT :: PLAN,TERMINATE :: PLAN :: ACT :: PROVIDE,1,False,False,False
+HyperAgent,4,PLAN :: ACT :: TERMINATE :: ACT,TERMINATE :: PLAN :: ACT :: PROVIDE,1,False,False,False

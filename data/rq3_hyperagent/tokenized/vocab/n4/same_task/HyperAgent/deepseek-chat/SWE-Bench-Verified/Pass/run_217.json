@@ -1,0 +1,41 @@
+{
+  "mad_path": "same_task/HyperAgent/deepseek-chat/SWE-Bench-Verified/Pass/run_217.json",
+  "granularity": "vocab",
+  "n": 4,
+  "mas_name": "HyperAgent",
+  "benchmark_name": "SWE-Bench-Verified",
+  "llm_name": "deepseek-chat",
+  "trace_id": 217,
+  "tokens": [
+    "REQUEST",
+    "PLAN",
+    "ACT",
+    "VERIFY_PASS",
+    "ACT",
+    "VERIFY_PASS",
+    "TERMINATE",
+    "PLAN",
+    "ACT",
+    "VERIFY_PASS",
+    "TERMINATE",
+    "PLAN",
+    "ERROR",
+    "PLAN",
+    "TERMINATE",
+    "VERIFY_PASS"
+  ],
+  "ngram_presence": [
+    "ACT :: VERIFY_PASS :: ACT :: VERIFY_PASS",
+    "ACT :: VERIFY_PASS :: TERMINATE :: PLAN",
+    "ERROR :: PLAN :: TERMINATE :: VERIFY_PASS",
+    "PLAN :: ACT :: VERIFY_PASS :: ACT",
+    "PLAN :: ACT :: VERIFY_PASS :: TERMINATE",
+    "PLAN :: ERROR :: PLAN :: TERMINATE",
+    "REQUEST :: PLAN :: ACT :: VERIFY_PASS",
+    "TERMINATE :: PLAN :: ACT :: VERIFY_PASS",
+    "TERMINATE :: PLAN :: ERROR :: PLAN",
+    "VERIFY_PASS :: ACT :: VERIFY_PASS :: TERMINATE",
+    "VERIFY_PASS :: TERMINATE :: PLAN :: ACT",
+    "VERIFY_PASS :: TERMINATE :: PLAN :: ERROR"
+  ]
+}

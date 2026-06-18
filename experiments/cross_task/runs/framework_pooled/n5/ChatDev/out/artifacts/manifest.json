@@ -1,0 +1,44 @@
+{
+  "n_traces": 130,
+  "n_patterns": 169,
+  "matrix_shape": [
+    130,
+    169
+  ],
+  "export_root": "data/mast/tokenized",
+  "mad_root": "data/mast",
+  "granularity": "vocab",
+  "n": 5,
+  "n_export_files": 130,
+  "n_traces_after_path_filter": 130,
+  "n_traces_final": 130,
+  "filters": {
+    "include_set": "full_set",
+    "mas_names": [
+      "ChatDev"
+    ],
+    "benchmark_names": [],
+    "llm_names": [],
+    "min_event_count": 0,
+    "max_traces": null,
+    "sample_seed": 42,
+    "analysis": {
+      "mode": "framework_any_fault",
+      "mas_name": "ChatDev"
+    }
+  },
+  "population_analysis": {
+    "population_mode": "framework_any_fault",
+    "mas_name": "ChatDev",
+    "n_input": 130,
+    "n_kept": 130,
+    "n_excluded": 0
+  },
+  "markov": {
+    "enabled": false,
+    "n": null,
+    "smoothing": 1.0,
+    "train_on": "pass_only",
+    "min_tokens_per_trace": 1
+  }
+}

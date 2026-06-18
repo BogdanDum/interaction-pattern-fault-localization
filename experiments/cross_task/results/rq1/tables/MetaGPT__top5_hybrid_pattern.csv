@@ -1,0 +1,6 @@
+SBFL #,Pattern (SBFL),Ochiai,Mk#,,Mk #,Pattern (Markov),Δ surprise,SBFL#,pattern match,Shared families
+1,REQUEST → PLAN → ACT → VERIFY_FAIL,0.744,1,│,1,REQUEST → PLAN → ACT → VERIFY_FAIL,0.105,1,yes,"act, plan, request, verify_fail"
+2,VERIFY_FAIL → INFORM → VERIFY_FAIL → INFORM,0.728,2,│,2,VERIFY_FAIL → INFORM → VERIFY_FAIL → INFORM,0.103,2,yes,"inform, verify_fail"
+3,PLAN → ACT → VERIFY_FAIL → ACT,0.695,3,│,3,PLAN → ACT → VERIFY_FAIL → ACT,0.063,3,yes,"act, plan, verify_fail"
+4,ACT → VERIFY_FAIL → ACT → VERIFY_FAIL,0.629,4,│,4,ACT → VERIFY_FAIL → ACT → VERIFY_FAIL,0.027,4,yes,"act, verify_fail"
+5,REQUEST → PLAN → ACT → INFORM,0.471,5,│,5,REQUEST → PLAN → ACT → INFORM,0.380,5,yes,"act, inform, plan, request"

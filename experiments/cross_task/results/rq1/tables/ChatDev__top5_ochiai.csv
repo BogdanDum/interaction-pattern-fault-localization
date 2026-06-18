@@ -1,0 +1,6 @@
+Rank,Pattern,e_f,e_p,Ochiai,p,Evidence
+1,ACT → INFORM → ACT → TERMINATE,64,25,0.703,—,untested
+2,ACT → VERIFY_PASS → PLAN → ACT,57,28,0.641,—,untested
+3,VERIFY_PASS → PLAN → ACT → INFORM,45,12,0.618,0.0715,high_effect
+4,INFORM → ACT → PLAN → INFORM,30,7,0.511,0.0939,tested_not_significant
+5,ACT → PLAN → INFORM → ACT,29,7,0.501,0.1151,tested_not_significant

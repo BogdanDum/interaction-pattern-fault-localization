@@ -1,0 +1,24 @@
+{
+  "spec": {
+    "study_id": "cross_task",
+    "framework": "MetaGPT",
+    "n": 4,
+    "condition": "sbfl",
+    "pattern_mode": "best_of_top_k",
+    "pattern_ranks": [],
+    "top_k": 4,
+    "seed": 42,
+    "failing_only": true,
+    "judge_window_n": null,
+    "ranking_method": "sbfl"
+  },
+  "rankings_path": "experiments/cross_task/runs/framework_pooled/n4/MetaGPT/out/runs/rankings__global.csv",
+  "artifacts_manifest_path": "experiments/cross_task/runs/framework_pooled/n4/MetaGPT/out/artifacts/manifest.json",
+  "model": "deepseek-v4-pro",
+  "temperature": 0.0,
+  "judge_study_dir": "rq4",
+  "pilot": false,
+  "pilot_n": null,
+  "aggregation": "rank1_first_occurrence_single_phase_judge_w4",
+  "created_at": "2026-06-22T16:44:40.992648+00:00"
+}

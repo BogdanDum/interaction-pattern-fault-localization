@@ -1,0 +1,111 @@
+{
+  "framework": "AG2",
+  "sbfl_top3": [
+    "REQUEST :: PLAN :: ACT :: INFORM",
+    "PLAN :: ACT :: INFORM :: TERMINATE",
+    "ACT :: INFORM :: TERMINATE :: INFORM"
+  ],
+  "markov_top3": [
+    "REQUEST :: PLAN :: ACT :: INFORM",
+    "PLAN :: ACT :: INFORM :: TERMINATE",
+    "ACT :: INFORM :: TERMINATE :: INFORM"
+  ],
+  "consensus_top3": [
+    "ACT :: INFORM :: TERMINATE :: INFORM",
+    "PLAN :: ACT :: INFORM :: TERMINATE",
+    "INFORM :: TERMINATE :: INFORM :: PLAN"
+  ],
+  "exact_top3_patterns": [
+    "ACT :: INFORM :: TERMINATE :: INFORM",
+    "PLAN :: ACT :: INFORM :: TERMINATE",
+    "REQUEST :: PLAN :: ACT :: INFORM"
+  ],
+  "exact_top3_overlap_count": 3,
+  "pattern_top3_overlap_count": 3,
+  "pattern_top3_with_bridge": 3,
+  "meets_target_pattern": true,
+  "meets_target_pattern_bridge": true,
+  "pattern_pairs_top3": [
+    {
+      "sbfl": "REQUEST :: PLAN :: ACT :: INFORM",
+      "markov": "REQUEST :: PLAN :: ACT :: INFORM",
+      "families": [
+        "act",
+        "inform",
+        "plan",
+        "request"
+      ]
+    },
+    {
+      "sbfl": "REQUEST :: PLAN :: ACT :: INFORM",
+      "markov": "PLAN :: ACT :: INFORM :: TERMINATE",
+      "families": [
+        "act",
+        "inform",
+        "plan"
+      ]
+    },
+    {
+      "sbfl": "REQUEST :: PLAN :: ACT :: INFORM",
+      "markov": "ACT :: INFORM :: TERMINATE :: INFORM",
+      "families": [
+        "act",
+        "inform"
+      ]
+    },
+    {
+      "sbfl": "PLAN :: ACT :: INFORM :: TERMINATE",
+      "markov": "REQUEST :: PLAN :: ACT :: INFORM",
+      "families": [
+        "act",
+        "inform",
+        "plan"
+      ]
+    },
+    {
+      "sbfl": "PLAN :: ACT :: INFORM :: TERMINATE",
+      "markov": "PLAN :: ACT :: INFORM :: TERMINATE",
+      "families": [
+        "act",
+        "inform",
+        "plan",
+        "terminate"
+      ]
+    },
+    {
+      "sbfl": "PLAN :: ACT :: INFORM :: TERMINATE",
+      "markov": "ACT :: INFORM :: TERMINATE :: INFORM",
+      "families": [
+        "act",
+        "inform",
+        "terminate"
+      ]
+    },
+    {
+      "sbfl": "ACT :: INFORM :: TERMINATE :: INFORM",
+      "markov": "REQUEST :: PLAN :: ACT :: INFORM",
+      "families": [
+        "act",
+        "inform"
+      ]
+    },
+    {
+      "sbfl": "ACT :: INFORM :: TERMINATE :: INFORM",
+      "markov": "PLAN :: ACT :: INFORM :: TERMINATE",
+      "families": [
+        "act",
+        "inform",
+        "terminate"
+      ]
+    },
+    {
+      "sbfl": "ACT :: INFORM :: TERMINATE :: INFORM",
+      "markov": "ACT :: INFORM :: TERMINATE :: INFORM",
+      "families": [
+        "act",
+        "inform",
+        "terminate"
+      ]
+    }
+  ]
+}

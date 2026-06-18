@@ -1,0 +1,24 @@
+{
+  "experiment": {
+    "name": "vocab_pooled__ChatDev__n5"
+  },
+  "tokenization": {
+    "export_root": "data/mast/tokenized",
+    "mad_root": "data/mast",
+    "n": 5
+  },
+  "population": {
+    "include_set": "full_set",
+    "mas_names": [
+      "ChatDev"
+    ]
+  },
+  "labels": [
+    {
+      "mode": "global"
+    }
+  ],
+  "markov_pattern": {
+    "enabled": true
+  }
+}

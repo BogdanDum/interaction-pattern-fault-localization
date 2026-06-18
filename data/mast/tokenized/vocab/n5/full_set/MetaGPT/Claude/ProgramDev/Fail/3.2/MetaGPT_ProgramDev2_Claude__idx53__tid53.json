@@ -1,0 +1,25 @@
+{
+  "mad_path": "full_set/MetaGPT/Claude/ProgramDev/Fail/3.2/MetaGPT_ProgramDev2_Claude__idx53__tid53.json",
+  "granularity": "vocab",
+  "n": 5,
+  "mas_name": "MetaGPT",
+  "benchmark_name": "ProgramDev",
+  "llm_name": "Claude",
+  "trace_id": 53,
+  "tokens": [
+    "PLAN",
+    "REQUEST",
+    "PLAN",
+    "ACT",
+    "VERIFY_FAIL",
+    "ACT",
+    "VERIFY_FAIL",
+    "INFORM"
+  ],
+  "ngram_presence": [
+    "ACT :: VERIFY_FAIL :: ACT :: VERIFY_FAIL :: INFORM",
+    "PLAN :: ACT :: VERIFY_FAIL :: ACT :: VERIFY_FAIL",
+    "PLAN :: REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+    "REQUEST :: PLAN :: ACT :: VERIFY_FAIL :: ACT"
+  ]
+}

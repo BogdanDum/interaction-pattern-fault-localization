@@ -1,0 +1,13 @@
+batch,framework,label,top_k,n_lo,n_hi,pair,jaccard
+runs,MetaGPT,global,10,2,3,$n{=}2 \leftrightarrow 3$,0.75
+runs,MetaGPT,global,10,3,4,$n{=}3 \leftrightarrow 4$,0.7777777777777778
+runs,MetaGPT,global,10,4,5,$n{=}4 \leftrightarrow 5$,0.6
+runs,ChatDev,global,10,2,3,$n{=}2 \leftrightarrow 3$,0.29411764705882354
+runs,ChatDev,global,10,3,4,$n{=}3 \leftrightarrow 4$,0.6428571428571429
+runs,ChatDev,global,10,4,5,$n{=}4 \leftrightarrow 5$,0.8181818181818182
+runs,HyperAgent,global,10,2,3,$n{=}2 \leftrightarrow 3$,0.4666666666666667
+runs,HyperAgent,global,10,3,4,$n{=}3 \leftrightarrow 4$,0.9166666666666666
+runs,HyperAgent,global,10,4,5,$n{=}4 \leftrightarrow 5$,0.45454545454545453
+runs,AG2,global,10,2,3,$n{=}2 \leftrightarrow 3$,0.8333333333333334
+runs,AG2,global,10,3,4,$n{=}3 \leftrightarrow 4$,0.7692307692307693
+runs,AG2,global,10,4,5,$n{=}4 \leftrightarrow 5$,0.7857142857142857

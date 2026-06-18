@@ -1,0 +1,3 @@
+n,rank1_pattern,rank1_freq_ochiai,bootstrap_csv
+3,VERIFY_FAIL :: ACT :: VERIFY_FAIL,0.54,/Users/bogdanduminica/Desktop/RP_Code_Final/experiments/rq3/results/bootstrap/bootstrap__n3__global.csv
+4,REQUEST :: PLAN :: ACT :: VERIFY_FAIL,0.84,/Users/bogdanduminica/Desktop/RP_Code_Final/experiments/rq3/results/bootstrap/bootstrap__n4__global.csv

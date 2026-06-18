@@ -1,0 +1,27 @@
+{
+  "mad_path": "full_set/AG2/GPT-4o/MMLU/Fail/1.3/AG2_MMLU_GPT4o_Mini__idx119__tid119.json",
+  "granularity": "vocab",
+  "n": 3,
+  "mas_name": "AG2",
+  "benchmark_name": "MMLU",
+  "llm_name": "GPT-4o",
+  "trace_id": 119,
+  "tokens": [
+    "VERIFY_FAIL",
+    "PLAN",
+    "ACT",
+    "PLAN",
+    "INFORM",
+    "PLAN",
+    "VERIFY_FAIL",
+    "TERMINATE"
+  ],
+  "ngram_presence": [
+    "ACT :: PLAN :: INFORM",
+    "INFORM :: PLAN :: VERIFY_FAIL",
+    "PLAN :: ACT :: PLAN",
+    "PLAN :: INFORM :: PLAN",
+    "PLAN :: VERIFY_FAIL :: TERMINATE",
+    "VERIFY_FAIL :: PLAN :: ACT"
+  ]
+}

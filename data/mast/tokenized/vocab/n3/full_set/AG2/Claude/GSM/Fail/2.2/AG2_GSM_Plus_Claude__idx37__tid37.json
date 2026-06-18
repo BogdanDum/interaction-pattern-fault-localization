@@ -1,0 +1,29 @@
+{
+  "mad_path": "full_set/AG2/Claude/GSM/Fail/2.2/AG2_GSM_Plus_Claude__idx37__tid37.json",
+  "granularity": "vocab",
+  "n": 3,
+  "mas_name": "AG2",
+  "benchmark_name": "GSM",
+  "llm_name": "Claude",
+  "trace_id": 37,
+  "tokens": [
+    "REQUEST",
+    "PLAN",
+    "ACT",
+    "INFORM",
+    "TERMINATE",
+    "INFORM",
+    "PLAN",
+    "VERIFY_FAIL",
+    "TERMINATE"
+  ],
+  "ngram_presence": [
+    "ACT :: INFORM :: TERMINATE",
+    "INFORM :: PLAN :: VERIFY_FAIL",
+    "INFORM :: TERMINATE :: INFORM",
+    "PLAN :: ACT :: INFORM",
+    "PLAN :: VERIFY_FAIL :: TERMINATE",
+    "REQUEST :: PLAN :: ACT",
+    "TERMINATE :: INFORM :: PLAN"
+  ]
+}

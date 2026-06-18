@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-06-17T23:24:18.125655+00:00",
+  "batch": "runs",
+  "figures": [
+    {
+      "figure_id": "fig02_adjacent_n_jaccard_bars",
+      "tier": "main",
+      "caption": "Adjacent n Jaccard grouped bars (RQ2).",
+      "source": "adjacent_n_jaccard.csv",
+      "files": {
+        "pdf": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/fig02_adjacent_n_jaccard_bars.pdf",
+        "png": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/fig02_adjacent_n_jaccard_bars.png"
+      }
+    },
+    {
+      "figure_id": "figA_ochiai_n3_n4_stability",
+      "tier": "appendix",
+      "caption": "Ochiai top-5 stability n=3 vs n=4.",
+      "source": "rankings CSV",
+      "files": {
+        "pdf": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_ochiai_n3_n4_stability.pdf",
+        "png": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_ochiai_n3_n4_stability.png"
+      }
+    },
+    {
+      "figure_id": "figA_transition_overlap_jaccard",
+      "tier": "appendix",
+      "caption": "Bigram transition Jaccard n=3 vs n=4.",
+      "source": "transition_overlap_jaccard.csv",
+      "files": {
+        "pdf": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_transition_overlap_jaccard.pdf",
+        "png": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_transition_overlap_jaccard.png"
+      }
+    },
+    {
+      "figure_id": "figA_trace_walkthrough",
+      "tier": "appendix",
+      "caption": "Vocab trace walkthrough.",
+      "source": "data/mast/tokenized idx59",
+      "files": {
+        "pdf": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_trace_walkthrough.pdf",
+        "png": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_trace_walkthrough.png"
+      }
+    },
+    {
+      "figure_id": "figA_higher_in_positives",
+      "tier": "appendix",
+      "caption": "Fail-pass delta rank-1 vs evidence.",
+      "source": "rankings CSV",
+      "files": {
+        "pdf": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_higher_in_positives.pdf",
+        "png": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_higher_in_positives.png"
+      }
+    },
+    {
+      "figure_id": "figA_rank_stability",
+      "tier": "appendix",
+      "caption": "Bootstrap rank-1 stability n=3,4.",
+      "source": "bootstrap_stability_summary.csv",
+      "files": {
+        "pdf": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_rank_stability.pdf",
+        "png": "/Users/bogdanduminica/Desktop/RP_Code_Final/figures/appendix/figA_rank_stability.png"
+      }
+    }
+  ]
+}

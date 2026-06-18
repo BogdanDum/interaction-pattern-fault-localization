@@ -1,0 +1,25 @@
+{
+  "n_traces": 230,
+  "n_patterns": 46,
+  "matrix_shape": [
+    230,
+    46
+  ],
+  "export_root": "data/mast/tokenized",
+  "mad_root": "data/mast",
+  "n": 4,
+  "n_export_files": 230,
+  "n_traces_after_path_filter": 230,
+  "n_traces_final": 230,
+  "filters": {
+    "include_set": "full_set",
+    "mas_names": [
+      "MetaGPT"
+    ],
+    "benchmark_names": [],
+    "llm_names": [],
+    "min_event_count": 0,
+    "max_traces": null,
+    "sample_seed": 42
+  }
+}

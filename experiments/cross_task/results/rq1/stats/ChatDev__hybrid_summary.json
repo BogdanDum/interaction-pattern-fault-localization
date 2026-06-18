@@ -1,0 +1,92 @@
+{
+  "framework": "ChatDev",
+  "sbfl_top3": [
+    "ACT :: INFORM :: ACT :: TERMINATE",
+    "ACT :: VERIFY_PASS :: PLAN :: ACT",
+    "VERIFY_PASS :: PLAN :: ACT :: INFORM"
+  ],
+  "markov_top3": [
+    "ACT :: INFORM :: ACT :: TERMINATE",
+    "ACT :: VERIFY_PASS :: PLAN :: ACT",
+    "VERIFY_PASS :: PLAN :: ACT :: INFORM"
+  ],
+  "consensus_top3": [
+    "ACT :: INFORM :: ACT :: TERMINATE",
+    "ACT :: PLAN :: ERROR :: INFORM",
+    "PLAN :: ERROR :: INFORM :: ACT"
+  ],
+  "exact_top3_patterns": [
+    "ACT :: INFORM :: ACT :: TERMINATE",
+    "ACT :: VERIFY_PASS :: PLAN :: ACT",
+    "VERIFY_PASS :: PLAN :: ACT :: INFORM"
+  ],
+  "exact_top3_overlap_count": 3,
+  "pattern_top3_overlap_count": 3,
+  "pattern_top3_with_bridge": 3,
+  "meets_target_pattern": true,
+  "meets_target_pattern_bridge": true,
+  "pattern_pairs_top3": [
+    {
+      "sbfl": "ACT :: INFORM :: ACT :: TERMINATE",
+      "markov": "ACT :: INFORM :: ACT :: TERMINATE",
+      "families": [
+        "act",
+        "inform",
+        "terminate"
+      ]
+    },
+    {
+      "sbfl": "ACT :: INFORM :: ACT :: TERMINATE",
+      "markov": "VERIFY_PASS :: PLAN :: ACT :: INFORM",
+      "families": [
+        "act",
+        "inform"
+      ]
+    },
+    {
+      "sbfl": "ACT :: VERIFY_PASS :: PLAN :: ACT",
+      "markov": "ACT :: VERIFY_PASS :: PLAN :: ACT",
+      "families": [
+        "act",
+        "plan",
+        "verify_pass"
+      ]
+    },
+    {
+      "sbfl": "ACT :: VERIFY_PASS :: PLAN :: ACT",
+      "markov": "VERIFY_PASS :: PLAN :: ACT :: INFORM",
+      "families": [
+        "act",
+        "plan",
+        "verify_pass"
+      ]
+    },
+    {
+      "sbfl": "VERIFY_PASS :: PLAN :: ACT :: INFORM",
+      "markov": "ACT :: INFORM :: ACT :: TERMINATE",
+      "families": [
+        "act",
+        "inform"
+      ]
+    },
+    {
+      "sbfl": "VERIFY_PASS :: PLAN :: ACT :: INFORM",
+      "markov": "ACT :: VERIFY_PASS :: PLAN :: ACT",
+      "families": [
+        "act",
+        "plan",
+        "verify_pass"
+      ]
+    },
+    {
+      "sbfl": "VERIFY_PASS :: PLAN :: ACT :: INFORM",
+      "markov": "VERIFY_PASS :: PLAN :: ACT :: INFORM",
+      "families": [
+        "act",
+        "inform",
+        "plan",
+        "verify_pass"
+      ]
+    }
+  ]
+}

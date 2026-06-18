@@ -1,0 +1,75 @@
+{
+  "framework": "MetaGPT",
+  "sbfl_top3": [
+    "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+    "VERIFY_FAIL :: INFORM :: VERIFY_FAIL :: INFORM",
+    "PLAN :: ACT :: VERIFY_FAIL :: ACT"
+  ],
+  "markov_top3": [
+    "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+    "VERIFY_FAIL :: INFORM :: VERIFY_FAIL :: INFORM",
+    "PLAN :: ACT :: VERIFY_FAIL :: ACT"
+  ],
+  "consensus_top3": [
+    "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+    "REQUEST :: PLAN :: ACT :: INFORM",
+    "VERIFY_FAIL :: INFORM :: VERIFY_FAIL :: INFORM"
+  ],
+  "exact_top3_patterns": [
+    "PLAN :: ACT :: VERIFY_FAIL :: ACT",
+    "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+    "VERIFY_FAIL :: INFORM :: VERIFY_FAIL :: INFORM"
+  ],
+  "exact_top3_overlap_count": 3,
+  "pattern_top3_overlap_count": 3,
+  "pattern_top3_with_bridge": 3,
+  "meets_target_pattern": true,
+  "meets_target_pattern_bridge": true,
+  "pattern_pairs_top3": [
+    {
+      "sbfl": "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+      "markov": "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+      "families": [
+        "act",
+        "plan",
+        "request",
+        "verify_fail"
+      ]
+    },
+    {
+      "sbfl": "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+      "markov": "PLAN :: ACT :: VERIFY_FAIL :: ACT",
+      "families": [
+        "act",
+        "plan",
+        "verify_fail"
+      ]
+    },
+    {
+      "sbfl": "VERIFY_FAIL :: INFORM :: VERIFY_FAIL :: INFORM",
+      "markov": "VERIFY_FAIL :: INFORM :: VERIFY_FAIL :: INFORM",
+      "families": [
+        "inform",
+        "verify_fail"
+      ]
+    },
+    {
+      "sbfl": "PLAN :: ACT :: VERIFY_FAIL :: ACT",
+      "markov": "REQUEST :: PLAN :: ACT :: VERIFY_FAIL",
+      "families": [
+        "act",
+        "plan",
+        "verify_fail"
+      ]
+    },
+    {
+      "sbfl": "PLAN :: ACT :: VERIFY_FAIL :: ACT",
+      "markov": "PLAN :: ACT :: VERIFY_FAIL :: ACT",
+      "families": [
+        "act",
+        "plan",
+        "verify_fail"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "experiment": {
+    "name": "vocab_pooled__HyperAgent__n2"
+  },
+  "tokenization": {
+    "export_root": "data/mast/tokenized",
+    "mad_root": "data/mast",
+    "n": 2
+  },
+  "population": {
+    "include_set": "full_set",
+    "mas_names": [
+      "HyperAgent"
+    ]
+  },
+  "labels": [
+    {
+      "mode": "global"
+    }
+  ],
+  "markov_pattern": {
+    "enabled": true
+  }
+}

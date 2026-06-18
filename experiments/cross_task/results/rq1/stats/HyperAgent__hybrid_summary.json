@@ -1,0 +1,106 @@
+{
+  "framework": "HyperAgent",
+  "sbfl_top3": [
+    "PLAN :: ACT :: TERMINATE :: ACT",
+    "TERMINATE :: PLAN :: ACT :: PLAN",
+    "ACT :: PLAN :: ACT :: PLAN"
+  ],
+  "markov_top3": [
+    "TERMINATE :: PLAN :: ACT :: PLAN",
+    "ACT :: PLAN :: ACT :: PLAN",
+    "PLAN :: ACT :: TERMINATE :: ACT"
+  ],
+  "consensus_top3": [
+    "ERROR :: PLAN :: ACT :: VERIFY_FAIL",
+    "TERMINATE :: PLAN :: ACT :: PLAN",
+    "ACT :: PLAN :: ACT :: PLAN"
+  ],
+  "exact_top3_patterns": [
+    "ACT :: PLAN :: ACT :: PLAN",
+    "PLAN :: ACT :: TERMINATE :: ACT",
+    "TERMINATE :: PLAN :: ACT :: PLAN"
+  ],
+  "exact_top3_overlap_count": 3,
+  "pattern_top3_overlap_count": 3,
+  "pattern_top3_with_bridge": 3,
+  "meets_target_pattern": true,
+  "meets_target_pattern_bridge": true,
+  "pattern_pairs_top3": [
+    {
+      "sbfl": "PLAN :: ACT :: TERMINATE :: ACT",
+      "markov": "TERMINATE :: PLAN :: ACT :: PLAN",
+      "families": [
+        "act",
+        "plan",
+        "terminate"
+      ]
+    },
+    {
+      "sbfl": "PLAN :: ACT :: TERMINATE :: ACT",
+      "markov": "ACT :: PLAN :: ACT :: PLAN",
+      "families": [
+        "act",
+        "plan"
+      ]
+    },
+    {
+      "sbfl": "PLAN :: ACT :: TERMINATE :: ACT",
+      "markov": "PLAN :: ACT :: TERMINATE :: ACT",
+      "families": [
+        "act",
+        "plan",
+        "terminate"
+      ]
+    },
+    {
+      "sbfl": "TERMINATE :: PLAN :: ACT :: PLAN",
+      "markov": "TERMINATE :: PLAN :: ACT :: PLAN",
+      "families": [
+        "act",
+        "plan",
+        "terminate"
+      ]
+    },
+    {
+      "sbfl": "TERMINATE :: PLAN :: ACT :: PLAN",
+      "markov": "ACT :: PLAN :: ACT :: PLAN",
+      "families": [
+        "act",
+        "plan"
+      ]
+    },
+    {
+      "sbfl": "TERMINATE :: PLAN :: ACT :: PLAN",
+      "markov": "PLAN :: ACT :: TERMINATE :: ACT",
+      "families": [
+        "act",
+        "plan",
+        "terminate"
+      ]
+    },
+    {
+      "sbfl": "ACT :: PLAN :: ACT :: PLAN",
+      "markov": "TERMINATE :: PLAN :: ACT :: PLAN",
+      "families": [
+        "act",
+        "plan"
+      ]
+    },
+    {
+      "sbfl": "ACT :: PLAN :: ACT :: PLAN",
+      "markov": "ACT :: PLAN :: ACT :: PLAN",
+      "families": [
+        "act",
+        "plan"
+      ]
+    },
+    {
+      "sbfl": "ACT :: PLAN :: ACT :: PLAN",
+      "markov": "PLAN :: ACT :: TERMINATE :: ACT",
+      "families": [
+        "act",
+        "plan"
+      ]
+    }
+  ]
+}
